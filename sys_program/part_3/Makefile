@@ -6,7 +6,7 @@ else
 	CC=arm-linux-gnueabihf-gcc
 endif
 
-TARGET=test_fork
+TARGET=test_exit
 #OBJS=main.o mp3.o
 BUILD_DIR=build
 
