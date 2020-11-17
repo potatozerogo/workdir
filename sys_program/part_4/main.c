@@ -1,6 +1,6 @@
 
 #include <sys/wait.h>
-#include <sys/type.h>
+#include <sys/types.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main()
     if (result == 0)
     {
         printf("son!\r\n");
-        exit(0);
+        exit(123);
     }
     else
     {
